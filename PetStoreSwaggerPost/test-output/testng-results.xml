@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-19T20:49:29 IST" name="Default suite" finished-at="2024-02-19T20:49:34 IST" duration-ms="4470">
+    <groups>
+    </groups>
+    <test started-at="2024-02-19T20:49:29 IST" name="Default test" finished-at="2024-02-19T20:49:34 IST" duration-ms="4470">
+      <class name="test.PetTest">
+        <test-method is-config="true" signature="setPetService()[pri:0, instance:test.PetTest@158d2680]" started-at="2024-02-19T20:49:29 IST" name="setPetService" finished-at="2024-02-19T20:49:29 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPetService -->
+        <test-method signature="verifyPetIsADog()[pri:0, instance:test.PetTest@158d2680]" started-at="2024-02-19T20:49:29 IST" name="verifyPetIsADog" finished-at="2024-02-19T20:49:33 IST" duration-ms="4400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPetIsADog -->
+      </class> <!-- test.PetTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
