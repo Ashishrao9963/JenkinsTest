@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-02T16:54:02 IST" name="Default suite" finished-at="2024-04-02T16:54:02 IST" duration-ms="141">
+    <groups>
+      <group name="Smoke">
+        <method signature="AppTest.iuhefiu()[pri:0, instance:testng.AppTest@2bd08376]" name="iuhefiu" class="testng.AppTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-04-02T16:54:02 IST" name="Default test" finished-at="2024-04-02T16:54:02 IST" duration-ms="141">
+      <class name="testng.AppTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testng.AppTest@2bd08376]" started-at="2024-04-02T16:54:02 IST" name="setUp" finished-at="2024-04-02T16:54:02 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testng.AppTest@2bd08376]" started-at="2024-04-02T16:54:02 IST" name="beforeTest" finished-at="2024-04-02T16:54:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testng.AppTest@2bd08376]" started-at="2024-04-02T16:54:02 IST" name="beforeClass" finished-at="2024-04-02T16:54:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.AppTest@2bd08376]" started-at="2024-04-02T16:54:02 IST" name="beforeMethod" finished-at="2024-04-02T16:54:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="iuhefiu()[pri:0, instance:testng.AppTest@2bd08376]" started-at="2024-04-02T16:54:02 IST" name="iuhefiu" finished-at="2024-04-02T16:54:02 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iuhefiu -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testng.AppTest@2bd08376]" started-at="2024-04-02T16:54:02 IST" name="afterSuite" finished-at="2024-04-02T16:54:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testng.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 17
+Class-Path: dependency-jars/testng-7.9.0.jar dependency-jars/slf4j-api-1
+ .7.36.jar dependency-jars/jcommander-1.82.jar dependency-jars/jquery-3.
+ 7.1.jar
+Main-Class: com.epam.tat.module4.Calculator
+Created-By: Maven Integration for Eclipse
+
