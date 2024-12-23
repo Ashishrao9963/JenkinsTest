@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.epm.test.CheckBoxesTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 40.713 s - in com.epm.test.CheckBoxesTest
