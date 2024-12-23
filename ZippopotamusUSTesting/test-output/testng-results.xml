@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-22T18:04:39 IST" name="Default suite" finished-at="2024-03-22T18:04:44 IST" duration-ms="5703">
+    <groups>
+    </groups>
+    <test started-at="2024-03-22T18:04:39 IST" name="Default test" finished-at="2024-03-22T18:04:44 IST" duration-ms="5703">
+      <class name="test.PlacesTest">
+        <test-method is-config="true" signature="setServiceObj()[pri:0, instance:test.PlacesTest@4550bb58]" started-at="2024-03-22T18:04:39 IST" name="setServiceObj" finished-at="2024-03-22T18:04:39 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setServiceObj -->
+        <test-method signature="verifyPostCode(java.lang.String)[pri:0, instance:test.PlacesTest@4550bb58]" started-at="2024-03-22T18:04:39 IST" name="verifyPostCode" data-provider="placePostCodes" finished-at="2024-03-22T18:04:43 IST" duration-ms="4244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[33162]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPostCode -->
+        <test-method signature="verifyPostCode(java.lang.String)[pri:0, instance:test.PlacesTest@4550bb58]" started-at="2024-03-22T18:04:43 IST" name="verifyPostCode" data-provider="placePostCodes" finished-at="2024-03-22T18:04:44 IST" duration-ms="1367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[00213]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPostCode -->
+      </class> <!-- test.PlacesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
