@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-17T18:45:25 IST" name="Default suite" finished-at="2024-04-17T18:45:29 IST" duration-ms="3685">
+    <groups>
+    </groups>
+    <test started-at="2024-04-17T18:45:25 IST" name="Default test" finished-at="2024-04-17T18:45:29 IST" duration-ms="3685">
+      <class name="com.epam.test.PostsTest">
+        <test-method is-config="true" signature="setPost()[pri:0, instance:com.epam.test.PostsTest@4550bb58]" started-at="2024-04-17T18:45:25 IST" name="setPost" finished-at="2024-04-17T18:45:25 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPost -->
+        <test-method signature="verifyCreationBody(com.epam.pojos.PostRecord,com.epam.pojos.PostRecord)[pri:0, instance:com.epam.test.PostsTest@4550bb58]" started-at="2024-04-17T18:45:25 IST" name="verifyCreationBody" data-provider="verifyCreationBody" finished-at="2024-04-17T18:45:29 IST" duration-ms="3589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PostRecord[userId=1, id=104, title=Shivanath, body=New body]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PostRecord[userId=1, id=101, title=Shivanath, body=New body]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreationBody -->
+        <test-method is-config="true" signature="destroyPostService()[pri:0, instance:com.epam.test.PostsTest@4550bb58]" started-at="2024-04-17T18:45:29 IST" name="destroyPostService" finished-at="2024-04-17T18:45:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroyPostService -->
+      </class> <!-- com.epam.test.PostsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
